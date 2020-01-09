@@ -21,4 +21,4 @@ const RadioButton = ({names, classes, ...rest}) => {
     </div>)
 };
 
-export default injectSheet(classes)(RadioButton);
+export default RadioButton;

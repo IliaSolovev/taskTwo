@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/RadioButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/Toggle/Toggle.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/PayButton/PayButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/PayButton/PayButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/RadioButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/RadioButton.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578565951686</updated>
-      <workItem from="1578565952852" duration="20982000" />
+      <workItem from="1578565952852" duration="22475000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -96,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578572517278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил Radio Button">
+      <created>1578591884969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578591884969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил 4 простые кнопки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил 4 простые кнопки" />
+    <MESSAGE value="Добавил Radio Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Radio Button" />
   </component>
 </project>
