@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/Toggle/Toggle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/LikeButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/images/favorite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/images/favorite_border.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/RadioButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/RadioButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/Toggle/Toggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/Toggle/Toggle.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +43,7 @@
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\LikeButton\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src" />
     </key>
   </component>
@@ -81,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578565951686</updated>
-      <workItem from="1578565952852" duration="22475000" />
+      <workItem from="1578565952852" duration="29315000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -97,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578591884969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил Toggle">
+      <created>1578593558003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578593558003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил 4 простые кнопки" />
     <MESSAGE value="Добавил Radio Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Radio Button" />
+    <MESSAGE value="Добавил Toggle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Toggle" />
   </component>
 </project>

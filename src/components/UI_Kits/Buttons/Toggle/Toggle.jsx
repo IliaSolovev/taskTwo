@@ -47,7 +47,6 @@ const Toggle = ({classes, ...rest}) => {
   const [isActive, setIsActive] = useState(false);
 
   const listener = () => {
-    console.log(isActive)
     setIsActive(!isActive);
   };
   return (
