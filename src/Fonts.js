@@ -24,7 +24,7 @@ export const H3 = {
 export const Body = {
   fontFamily: 'Montserrat',
   fontStyle: 'normal',
-  fontWeight: 'bold',
+  fontWeight: 'normal',
   fontSize: 14,
   color: DarkShade75,
 };
