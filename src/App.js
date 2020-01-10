@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import RateButton from "./components/UI_Kits/Buttons/RateButton/RateButton";
-import CheckboxButton from "./components/UI_Kits/Buttons/CheckboxButton/CheckboxButton";
-
+import './components/UI_Kits/Buttons/CheckboxButton/checkbox.css'
+import TextField from './components/UI_Kits/Fields/TextFiled/TextFiled';
 function App (){
   return (
     <div className="App">
-      <CheckboxButton values={['Можно курить','Можно с питомцами','Можно пригласить гостей (до 10 человек)']}/>
+      <TextField/>
     </div>
   );
 }

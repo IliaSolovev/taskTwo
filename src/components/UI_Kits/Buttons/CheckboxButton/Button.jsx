@@ -3,6 +3,8 @@ import injectSheet from 'react-jss'
 import {Body} from "../../../../Fonts";
 import {DarkShade50, Purple} from "../../../../Colors";
 import vector from './images/Vector.svg'
+import {CSSTransition} from 'react-transition-group';
+import './checkbox.css'
 
 const classes = {
   container: {
@@ -24,7 +26,7 @@ const classes = {
     boxSizing: 'border-box',
   },
   check: {
-    margin: '0 0 4px 4px'
+    margin: '0 0 4px 4px',
   },
   text: {
     width: 192,
@@ -32,21 +34,23 @@ const classes = {
     marginTop: 2,
     ...Body,
     color: DarkShade50,
-  }
+  },
 };
 
-const StyledButton = injectSheet(classes)(({text, setIsCheck, isCheck,classes, ...rest}) => (
-  <div className={ classes.container } onClick={ setIsCheck }>
+const StyledButton = injectSheet(classes)(({text, setIsCheck, isCheck, classes, ...rest}) => (
+  <div className={ classes.container } onClick={ setIsCheck } >
     <input type='checkbox' name='checkbox' value={ text } className={ classes.input }/>
-    <div className={ classes.rectangle } >
-      {isCheck && <img src={ vector } alt="" className={ classes.check }/> }
+    <div className={ classes.rectangle }>
+      <CSSTransition in={isCheck} timeout={200} classNames="my-node" unmountOnExit >
+        <img src={ vector } alt="" className={ classes.check }/>
+      </CSSTransition>
     </div>
     <div className={ classes.text }>{ text }</div>
+
   </div>));
 
 const Button = ({text, classes, ...rest}) => {
   const [isCheck, setIsCheck] = useState(false);
-
   return <StyledButton text={ text } isCheck={ isCheck }
                        setIsCheck={ () => setIsCheck(!isCheck) }/>;
 };

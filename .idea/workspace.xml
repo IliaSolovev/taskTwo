@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/images/Vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -30,6 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,17 +41,17 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RadioButton\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RateButton\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\LikeButton\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +94,9 @@
       <workItem from="1578565952852" duration="29360000" />
       <workItem from="1578643127893" duration="2793000" />
       <workItem from="1578653948299" duration="1774000" />
-      <workItem from="1578658988575" duration="5425000" />
+      <workItem from="1578658988575" duration="6274000" />
+      <workItem from="1578670598406" duration="8668000" />
+      <workItem from="1578679979125" duration="5603000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -127,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578664564372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавил CheckBox Button">
+      <created>1578667653874</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578667653874</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +165,7 @@
     <MESSAGE value="Добавил Toggle" />
     <MESSAGE value="Добавил Like Button" />
     <MESSAGE value="Добавил Rate Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Rate Button" />
+    <MESSAGE value="Добавил CheckBox Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил CheckBox Button" />
   </component>
 </project>
