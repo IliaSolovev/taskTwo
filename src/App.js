@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import LikeButton from "./components/UI_Kits/Buttons/LikeButton/LikeButton";
-import { purple } from '@material-ui/core/colors';
-import {Purple} from "./Colors";
+import RateButton from "./components/UI_Kits/Buttons/RateButton/RateButton";
 
 function App (){
   return (
     <div className="App">
-      <LikeButton />
+
+      <RateButton defaultValue={0}/>
     </div>
   );
 }
