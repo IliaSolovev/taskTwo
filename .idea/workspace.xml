@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +91,7 @@
       <workItem from="1578653948299" duration="1774000" />
       <workItem from="1578658988575" duration="6274000" />
       <workItem from="1578670598406" duration="8668000" />
-      <workItem from="1578679979125" duration="5603000" />
+      <workItem from="1578679979125" duration="7867000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -140,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578667653874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Обновил CheckBox Button">
+      <created>1578689993501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578689993501</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +168,7 @@
     <MESSAGE value="Добавил Like Button" />
     <MESSAGE value="Добавил Rate Button" />
     <MESSAGE value="Добавил CheckBox Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил CheckBox Button" />
+    <MESSAGE value="Обновил CheckBox Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновил CheckBox Button" />
   </component>
 </project>
