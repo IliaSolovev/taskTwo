@@ -1,0 +1,14 @@
+.checkboxList-enter{
+    opacity: 0;
+}
+.checkboxList-enter-active{
+    opacity: 1;
+    transition: all .4s;
+}
+.checkboxList-exit{
+    opacity: 1;
+    transition: all .4s;
+}
+.checkboxList-exit-active{
+    opacity: 0;
+}
