@@ -1,0 +1,14 @@
+.furnitureDropdown-enter{
+    opacity: 0;
+}
+.furnitureDropdown-enter-active{
+    opacity: 1;
+    transition: all .7s;
+}
+.furnitureDropdown-exit{
+    opacity: 1;
+}
+.furnitureDropdown-exit-active{
+    opacity: 0;
+    transition: all .7s;
+}
