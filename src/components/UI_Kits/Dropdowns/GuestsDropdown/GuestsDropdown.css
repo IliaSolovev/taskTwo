@@ -1,0 +1,14 @@
+.guestsDropdown-enter{
+    opacity: 0;
+}
+.guestsDropdown-enter-active{
+    opacity: 1;
+    transition: all .7s;
+}
+.guestsDropdown-exit{
+    opacity: 1;
+}
+.guestsDropdown-exit-active{
+    opacity: 0;
+    transition: all .7s;
+}

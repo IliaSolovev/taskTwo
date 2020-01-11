@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/Button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/DropdownCounter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/images/+.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/images/-.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownFiled/DropdownFiled.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownFiled/images/expand_more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/GuestsDropdown/GuestsDropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/GuestsDropdown/GuestsDropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/ParseWord.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,17 +45,17 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RadioButton\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RateButton\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\LikeButton\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownCounter\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownFiled\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RadioButton\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RateButton\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,7 +100,8 @@
       <workItem from="1578653948299" duration="1774000" />
       <workItem from="1578658988575" duration="6274000" />
       <workItem from="1578670598406" duration="8668000" />
-      <workItem from="1578679979125" duration="7867000" />
+      <workItem from="1578679979125" duration="8017000" />
+      <workItem from="1578732967158" duration="15593000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -142,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578689993501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавил Text Filed">
+      <created>1578692360477</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578692360477</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +186,7 @@
     <MESSAGE value="Добавил Rate Button" />
     <MESSAGE value="Добавил CheckBox Button" />
     <MESSAGE value="Обновил CheckBox Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновил CheckBox Button" />
+    <MESSAGE value="Добавил Text Filed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Text Filed" />
   </component>
 </project>
