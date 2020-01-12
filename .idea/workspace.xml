@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/CheckboxList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/CheckboxList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/images/expand_more_down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/images/expand_more_up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RichCheckboxButton/RichCheckboxButton.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,7 +98,8 @@
       <workItem from="1578670598406" duration="8668000" />
       <workItem from="1578679979125" duration="8017000" />
       <workItem from="1578732967158" duration="15797000" />
-      <workItem from="1578765244940" duration="5781000" />
+      <workItem from="1578765244940" duration="6736000" />
+      <workItem from="1578819886729" duration="3282000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578769798294</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавил Checkbox list">
+      <created>1578771961128</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578771961128</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +208,7 @@
     <MESSAGE value="Добавил Text Filed" />
     <MESSAGE value="Добавил Dropdown для гостей" />
     <MESSAGE value="Добавил Dropdown для мебели" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Dropdown для мебели" />
+    <MESSAGE value="Добавил Checkbox list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Checkbox list" />
   </component>
 </project>

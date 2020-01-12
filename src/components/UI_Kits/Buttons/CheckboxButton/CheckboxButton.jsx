@@ -12,11 +12,18 @@ const classes = {
   }
 };
 
-const CheckboxButton = ({values, width = 222, height = 101, classes, ...rest}) => {
+const CheckboxButton = ({values, width = 222, height = 101, classes,isRich = false, ...rest}) => {
+  let buttons;
+  if(isRich){
+    buttons = values.map((value, id) => {
+      return <Button text={ value[1] } title={ value[0] } key={ id }/>
+    });
+  } else{
+    buttons = values.map((value, id) => {
+      return <Button text={ value } key={ id }/>
+    });
+  }
 
-  const buttons = values.map((value, id) => {
-    return <Button text={ value } key={ id }/>
-  });
   return (
     <div className={ classes.root }>
       { buttons }

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import injectSheet from 'react-jss'
-import {Body} from "../../../../Fonts";
-import {DarkShade50, Purple} from "../../../../Colors";
+import {Body, H3} from "../../../../Fonts";
+import {DarkShade50, DarkShade75, Purple} from "../../../../Colors";
 import vector from './images/Vector.svg'
 import {CSSTransition} from 'react-transition-group';
 import './checkbox.css'
@@ -10,8 +10,7 @@ const classes = {
   container: {
     display: 'flex',
     justifyContent: 'space-between',
-    width: 222,
-    height: 18,
+    width: props => props.title ? 266 : 222,
     cursor: 'pointer',
     margin: ' 0 0 10px 0',
   },
@@ -28,30 +27,43 @@ const classes = {
   check: {
     margin: '0 0 4px 4px',
   },
-  text: {
-    width: 192,
-    height: 36,
+  textContainer: {
+    width: props => props.title ? 236 : 192,
+    height: props => props.title ? 52 : 18,
+    maxHeight: 60,
     marginTop: 2,
-    ...Body,
+  },
+  text: {
+
+    ...H3,
     color: DarkShade50,
   },
+  title: {
+    ...Body,
+    fontWeight: 'bold',
+    color: DarkShade75
+  }
 };
 
-const StyledButton = injectSheet(classes)(({text, setIsCheck, isCheck, classes, ...rest}) => (
-  <div className={ classes.container } onClick={ setIsCheck } >
+const StyledButton = injectSheet(classes)(({text, title = false, setIsCheck, isCheck, classes, ...rest}) => (
+  <div className={ classes.container } onClick={ setIsCheck }>
     <input type='checkbox' name='checkbox' value={ text } className={ classes.input }/>
     <div className={ classes.rectangle }>
-      <CSSTransition in={isCheck} timeout={200} classNames="my-node" unmountOnExit >
+      <CSSTransition in={ isCheck } timeout={ 200 } classNames="my-node" unmountOnExit>
         <img src={ vector } alt="" className={ classes.check }/>
       </CSSTransition>
     </div>
-    <div className={ classes.text }>{ text }</div>
+
+    <div className={ classes.textContainer }>
+      <div className={ classes.title }>{ title }</div>
+      <div className={ classes.text }>{ text }</div>
+    </div>
 
   </div>));
 
-const Button = ({text, classes, ...rest}) => {
+const Button = ({text, title = '', classes, ...rest}) => {
   const [isCheck, setIsCheck] = useState(false);
-  return <StyledButton text={ text } isCheck={ isCheck }
+  return <StyledButton text={ text } isCheck={ isCheck } title={ title }
                        setIsCheck={ () => setIsCheck(!isCheck) }/>;
 };
 
