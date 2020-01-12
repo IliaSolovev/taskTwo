@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
 import './components/UI_Kits/Buttons/CheckboxButton/checkbox.css'
-import RichCheckboxButton from "./components/UI_Kits/Buttons/RichCheckboxButton/RichCheckboxButton";
-import CheckboxList from "./components/UI_Kits/Dropdowns/CheckboxList/CheckboxList";
+import BulletList from "./components/UI_Kits/BulletList/BulletList";
 
 function App (){
   return (
     <div className="App">
-      <RichCheckboxButton/>
-      <CheckboxList/>
+      <BulletList/>
     </div>
   );
 }

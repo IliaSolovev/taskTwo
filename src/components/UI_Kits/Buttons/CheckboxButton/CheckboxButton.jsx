@@ -16,7 +16,7 @@ const CheckboxButton = ({values, width = 222, height = 101, classes,isRich = fal
   let buttons;
   if(isRich){
     buttons = values.map((value, id) => {
-      return <Button text={ value[1] } title={ value[0] } key={ id }/>
+      return <Button text={ value[1] } title={ value[0] } key={ id } id={id}/>
     });
   } else{
     buttons = values.map((value, id) => {

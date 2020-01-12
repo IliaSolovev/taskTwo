@@ -23,6 +23,7 @@ const classes = {
     borderRadius: 4,
     border: props => props.isCheck === true ? `1px solid ${ Purple }` : `1px solid ${ DarkShade50 }`,
     boxSizing: 'border-box',
+    zIndex:-1
   },
   check: {
     margin: '0 0 4px 4px',
@@ -45,15 +46,14 @@ const classes = {
   }
 };
 
-const StyledButton = injectSheet(classes)(({text, title = false, setIsCheck, isCheck, classes, ...rest}) => (
+const StyledButton = injectSheet(classes)(({text, title = false, setIsCheck, isCheck, classes,id, ...rest}) => (
   <div className={ classes.container } onClick={ setIsCheck }>
-    <input type='checkbox' name='checkbox' value={ text } className={ classes.input }/>
-    <div className={ classes.rectangle }>
+    <input id={id} type='checkbox' name='checkbox' value={ text } className={ classes.input }/>
+    <label htmlFor={id} className={ classes.rectangle }>
       <CSSTransition in={ isCheck } timeout={ 200 } classNames="my-node" unmountOnExit>
         <img src={ vector } alt="" className={ classes.check }/>
       </CSSTransition>
-    </div>
-
+    </label>
     <div className={ classes.textContainer }>
       <div className={ classes.title }>{ title }</div>
       <div className={ classes.text }>{ text }</div>
@@ -61,10 +61,10 @@ const StyledButton = injectSheet(classes)(({text, title = false, setIsCheck, isC
 
   </div>));
 
-const Button = ({text, title = '', classes, ...rest}) => {
+const Button = ({text, title = '', classes,id, ...rest}) => {
   const [isCheck, setIsCheck] = useState(false);
   return <StyledButton text={ text } isCheck={ isCheck } title={ title }
-                       setIsCheck={ () => setIsCheck(!isCheck) }/>;
+                       setIsCheck={ () => setIsCheck(!isCheck) } id={id}/>;
 };
 
 export default Button;

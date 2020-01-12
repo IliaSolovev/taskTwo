@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RichCheckboxButton/RichCheckboxButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/BulletList/BulletList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/BulletList/images/Ellipse.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" afterDir="false" />
@@ -39,19 +40,19 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownCounter\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownFiled\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RadioButton\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RateButton\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\CheckboxList\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\FurnitureDropdown" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\BulletList\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownCounter\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownFiled\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RadioButton\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +100,7 @@
       <workItem from="1578679979125" duration="8017000" />
       <workItem from="1578732967158" duration="15797000" />
       <workItem from="1578765244940" duration="6736000" />
-      <workItem from="1578819886729" duration="3282000" />
+      <workItem from="1578819886729" duration="6552000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578771961128</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Добавил Rich Checkbox">
+      <created>1578823198946</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578823198946</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="Добавил Dropdown для гостей" />
     <MESSAGE value="Добавил Dropdown для мебели" />
     <MESSAGE value="Добавил Checkbox list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Checkbox list" />
+    <MESSAGE value="Добавил Rich Checkbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Rich Checkbox" />
   </component>
 </project>
