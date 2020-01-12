@@ -37,8 +37,8 @@ const Like = ({classes, isLiked, counter, listener, ...rest}) => {
 
 const StyledLike = injectSheet(classes)(Like);
 
-const LikeButton = ({classes, ...rest}) => {
-  const [counter, setCounter] = useState(0);
+const LikeButton = ({classes,countLikes = 0, ...rest}) => {
+  const [counter, setCounter] = useState(countLikes);
   const [isLiked, setIsLiked] = useState(false);
 
   const listener = () => {

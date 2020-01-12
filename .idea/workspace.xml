@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/BulletList/BulletList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/BulletList/images/Ellipse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/ProductReview/ProductReview.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/ProductReview/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RoomDetails/RoomDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RoomDetails/images/insert_emoticon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/LikeButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/LikeButton.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +50,11 @@
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\ProductReview\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\RoomDetails\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\BulletList\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownCounter\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\DropdownFiled\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\RadioButton\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,7 +102,8 @@
       <workItem from="1578679979125" duration="8017000" />
       <workItem from="1578732967158" duration="15797000" />
       <workItem from="1578765244940" duration="6736000" />
-      <workItem from="1578819886729" duration="6552000" />
+      <workItem from="1578819886729" duration="14021000" />
+      <workItem from="1578847732425" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578823198946</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Добавил Bullet list">
+      <created>1578830130187</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578830130187</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +228,7 @@
     <MESSAGE value="Добавил Dropdown для мебели" />
     <MESSAGE value="Добавил Checkbox list" />
     <MESSAGE value="Добавил Rich Checkbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил Rich Checkbox" />
+    <MESSAGE value="Добавил Bullet list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Bullet list" />
   </component>
 </project>
