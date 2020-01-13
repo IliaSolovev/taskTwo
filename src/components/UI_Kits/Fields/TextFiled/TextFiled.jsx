@@ -18,7 +18,7 @@ const classes = {
   }
 };
 
-const TextField = ({placeholder = 'Email', ...rest}) => {
+const TextField = ({placeholder = 'Email', type = 'text', ...rest}) => {
   const [isFocus, setIsFocus] = useState(false);
   const [isMouseOver, setMouseOver] = useState(false);
   const mouseOver = (state) => {
@@ -31,13 +31,13 @@ const TextField = ({placeholder = 'Email', ...rest}) => {
     setIsFocus(state);
   };
 
-  return <StylesFiled mouseOver={ mouseOver } focus={ focus }
+  return <StylesFiled mouseOver={ mouseOver } focus={ focus } type={ type }
                       isActive={ isFocus || isMouseOver } placeholder={ placeholder }/>
 };
 
-const StylesFiled = injectSheet(classes)(({classes, placeholder, mouseOver, focus, ...rest}) => {
+const StylesFiled = injectSheet(classes)(({classes, placeholder, mouseOver, focus, type, ...rest}) => {
 
-  return <input type='text' placeholder={ placeholder } className={ classes.input }
+  return <input type={ type } placeholder={ placeholder } className={ classes.input }
                 onMouseOver={ () => mouseOver(true) } onMouseLeave={ () => mouseOver(false) }
                 onFocus={ () => focus(true) } onBlur={ () => focus(true) }/>
 });

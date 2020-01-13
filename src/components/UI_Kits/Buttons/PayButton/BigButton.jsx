@@ -25,12 +25,12 @@ const classes = {
   }
 };
 
-const PayButton = ({classes, text = 'Перейти к оплате', ...rest}) => {
+const BigButton = ({classes, text = 'Перейти к оплате',type='', ...rest}) => {
   return (
-    <button className={ classes.button }>
+    <button type={type} className={ classes.button }>
       <div>{ text }</div>
       <ArrowForwardIcon className={ classes.arrow }/>
     </button>)
 };
 
-export default injectSheet(classes)(PayButton)
+export default injectSheet(classes)(BigButton)

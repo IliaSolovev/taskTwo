@@ -18,10 +18,10 @@ const classes = {
   }
 };
 
-const TransparentButton = ({text = 'Click me',classes, ...rest}) => {
+const TransparentButton = ({text = 'Click me',classes,type = '', ...rest}) => {
 
   return (
-    <button className={classes.button}>
+    <button type={type} className={classes.button}>
       {text}
     </button>)
 };
