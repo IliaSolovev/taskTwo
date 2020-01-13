@@ -7,6 +7,8 @@ import {CSSTransition} from "react-transition-group";
 import './GuestsDropdown.css'
 import {declOFNum} from "../ParseWord";
 import {H3} from "../../../../Fonts";
+import TransparentButtonWithoutBorder
+  from "../../Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder";
 
 const classes = {
   content: {
@@ -19,19 +21,9 @@ const classes = {
   buttons: {
     display: 'flex',
     justifyContent: 'space-between',
-    padding: '0 10px',
     margin: '13px 0',
     ...H3
   },
-  confirm: {
-    color: Purple,
-    cursor: 'pointer',
-  },
-  clear: {
-    color: DarkShade50,
-    cursor: 'pointer',
-
-  }
 };
 
 
@@ -48,7 +40,6 @@ const GuestsDropdown = ({classes, ...rest}) => {
   };
 
   const setNewData = () => {
-    console.log(values);
     setData(values[0] + values[1] + values[2]);
     setText(declOFNum(values[0] + values[1] + values[2], wordsArr))
   };
@@ -64,8 +55,12 @@ const GuestsDropdown = ({classes, ...rest}) => {
                                                          value={ values[id] }/>) }
           </div>
           <div className={ classes.buttons }>
-            <div className={ classes.clear } onClick={ () => setData(0) }>Очистить</div>
-            <div className={ classes.confirm } onClick={ setNewData }>Применить</div>
+            <div  onClick={ () => setData(0) }>
+              <TransparentButtonWithoutBorder text='Очистить' isActive={ false }/>
+            </div>
+            <div  onClick={ setNewData }>
+              <TransparentButtonWithoutBorder text='Применить' isActive={ true }/>
+            </div>
           </div>
         </div>
       </CSSTransition>

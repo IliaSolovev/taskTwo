@@ -15,6 +15,7 @@ const classes = {
     cursor: 'pointer',
     outline: 'none',
     border: 'none',
+
   }
 };
 

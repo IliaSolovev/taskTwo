@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RangeSlider/RangeSlider.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/GuestsDropdown/GuestsDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/GuestsDropdown/GuestsDropdown.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,7 @@
       <workItem from="1578765244940" duration="6736000" />
       <workItem from="1578819886729" duration="14021000" />
       <workItem from="1578847732425" duration="12602000" />
-      <workItem from="1578906836184" duration="18641000" />
+      <workItem from="1578906836184" duration="19047000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578920844573</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Добавил Range Slider">
+      <created>1578931281812</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578931281812</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +257,7 @@
     <MESSAGE value="Добавил Product Review" />
     <MESSAGE value="Добавил Paginator" />
     <MESSAGE value="Добавил subscription text fie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил subscription text fie" />
+    <MESSAGE value="Добавил Range Slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Range Slider" />
   </component>
 </project>
