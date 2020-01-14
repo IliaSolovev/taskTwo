@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/LogIn/LogIn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/PayButton/PayButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/PayButton/BigButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/TransparentButton/TransparentButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/TransparentButton/TransparentButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/Calendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +102,8 @@
       <workItem from="1578765244940" duration="6736000" />
       <workItem from="1578819886729" duration="14021000" />
       <workItem from="1578847732425" duration="12602000" />
-      <workItem from="1578906836184" duration="22486000" />
+      <workItem from="1578906836184" duration="28618000" />
+      <workItem from="1578998425995" duration="17700000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578931709707</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавил форму логина">
+      <created>1578936737571</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578936737571</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +276,7 @@
     <MESSAGE value="Добавил subscription text fie" />
     <MESSAGE value="Добавил Range Slider" />
     <MESSAGE value="Использовал в Guests Dropdown кнопки компоненты вместо того чтобы из еще раз писать" />
-    <option name="LAST_COMMIT_MESSAGE" value="Использовал в Guests Dropdown кнопки компоненты вместо того чтобы из еще раз писать" />
+    <MESSAGE value="Добавил форму логина" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил форму логина" />
   </component>
 </project>

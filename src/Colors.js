@@ -8,3 +8,4 @@ export const Purple = '#BC9CFF';
 export const Purple50 = 'rgba(188,156,255,0.5)';
 export const Green = '#6FCF97';
 export const Green50 = 'rgba(111,207,151,0.5)';
+export const Green50фыв = '#4a90e2';
