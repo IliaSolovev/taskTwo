@@ -23,29 +23,13 @@ const classes = {
 };
 
 const MaskedTextFiled = ({classes, ...rest}) => {
-  let [value, setValue] = useState('');
-  const onChange = (e) => {
-    let value = e.target.value;
-    if (value.charCodeAt() !== 49) {
-      alert('Вы вводите не корректную дату!!!')
-    } else if (value.length === 2) {
-      value += '.';
-      setValue(value);
-    } else if (value.length === 5) {
-      value += '.';
-      setValue(value);
-    } else if (value.length > 10) {
-      alert('Вы вводите не корректную дату!!!')
-    } else {
-      setValue(value);
-    }
-  };
-  return <StyledMaskedTextFiled value={ value } onChange={ onChange }/>
+
+  return <StyledMaskedTextFiled />
 };
 
-const StyledMaskedTextFiled = injectSheet(classes)(({classes, value, onChange, ...rest}) => {
-  return <input className={ classes.input } value={ value } onChange={ onChange }
-                type="text" placeholder='ДД.ММ.ГГГГ'/>
+const StyledMaskedTextFiled = injectSheet(classes)(({classes, ...rest}) => {
+  return <input className={ classes.input }
+                type="date" />
 });
 
 export default injectSheet(classes)(MaskedTextFiled);
