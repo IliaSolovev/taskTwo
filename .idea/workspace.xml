@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       <workItem from="1578998425995" duration="21069000" />
       <workItem from="1579029337549" duration="4577000" />
       <workItem from="1579076632096" duration="687000" />
-      <workItem from="1579077518010" duration="18682000" />
+      <workItem from="1579077518010" duration="19716000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -260,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579104952103</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Добавил MaskedTextFiled">
+      <created>1579106206918</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1579106206918</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +308,7 @@
     <MESSAGE value="Добавил функциию для создания объекта для календаря" />
     <MESSAGE value="Добавил 2 блока для календаря" />
     <MESSAGE value="Добавил календярь" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил календярь" />
+    <MESSAGE value="Добавил MaskedTextFiled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил MaskedTextFiled" />
   </component>
 </project>
