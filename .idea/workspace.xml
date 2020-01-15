@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/DayBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/DisableDayBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/images/arrow_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/images/arrow_forward.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/Calendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/DayBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/DayBlock.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +104,7 @@
       <workItem from="1578998425995" duration="21069000" />
       <workItem from="1579029337549" duration="4577000" />
       <workItem from="1579076632096" duration="687000" />
-      <workItem from="1579077518010" duration="5092000" />
+      <workItem from="1579077518010" duration="17421000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579022430663</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Добавил 2 блока для календаря">
+      <created>1579084672439</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1579084672439</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +293,7 @@
     <MESSAGE value="Использовал в Guests Dropdown кнопки компоненты вместо того чтобы из еще раз писать" />
     <MESSAGE value="Добавил форму логина" />
     <MESSAGE value="Добавил функциию для создания объекта для календаря" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил функциию для создания объекта для календаря" />
+    <MESSAGE value="Добавил 2 блока для календаря" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил 2 блока для календаря" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 import React from "react";
 import injectSheet from 'react-jss';
-import {DarkShade50, Purple} from "../../../Colors";
+import {DarkShade50, Green, Purple} from "../../../Colors";
 import {H3} from "../../../Fonts";
 
 const classes = {
@@ -10,7 +10,7 @@ const classes = {
     alignItems: 'center',
     width: 40,
     height: 40,
-    background: props => props.currentDay? `linear-gradient(180deg, ${Purple} 0%, #8BA4F9 100%)`:'',
+    background: props => props.currentDay? `linear-gradient(180deg, ${Green} 0%, #66D2EA 100%)`:'',
     borderRadius: 22,
     ...H3,
     color:props => props.currentDay? '#fff': DarkShade50,

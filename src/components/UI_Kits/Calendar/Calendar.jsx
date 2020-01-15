@@ -1,16 +1,18 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import DayBlock from "./DayBlock";
 import injectSheet from 'react-jss';
 import {DarkShade100, DarkShade25, DarkShade5, Purple} from "../../../Colors";
 import arrow_back from './images/arrow_back.png';
 import arrow_forward from './images/arrow_forward.png';
 import {H1, H3} from "../../../Fonts";
+import DisableDayBlock from "./DisableDayBlock";
+import TransparentButtonWithoutBorder from "../Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder";
 
 
 const classes = {
   root: {
     width: 320,
-    height: 369,
+    maxHeight: 439,
     padding: 20,
     background: '#fff',
     border: `1px solid ${ DarkShade25 }`,
@@ -41,38 +43,59 @@ const classes = {
   days: {
     width: 280,
     display: 'flex',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    marginBottom: 20,
   },
-  day: {}
+  day: {},
+  footer:{
+    display: 'flex',
+    justifyContent: 'space-between',
+  }
 
 };
 
 const Calendar = ({classes, ...rest}) => {
-  const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декаюрь',];
-  const currentDate = new Date();
-  const currentDay = currentDate.getDay();
-  const currentMonth = currentDate.getMonth() + 5;
-  const currentYear = currentDate.getFullYear();
-  const daysOfTheCurrentMonth = getMonth(currentYear, currentMonth);
-  let displayDays = [];
-  daysOfTheCurrentMonth.map((days, id) => {
-    for (let key of Object.keys(days)) {
-      if (key === 'length') continue;
-      displayDays = [...displayDays, <DayBlock key={ `${ id }-${ key }` }
-                                               day={ days[key] }
-                                               currentDay={ currentDay === days[key] }/>];
+  const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь',];
+  let [currentDate, setCurrentDate] = useState(new Date());
+  let [currentMonth, setCurrentMonth] = useState(currentDate.getMonth());
+  let [currentYear, setCurrentYear] = useState(currentDate.getFullYear());
+  let [currentDay, setCurrentDay] = useState([currentDate.getDay(), currentMonth, currentYear]);
+  let [daysOfTheCurrentMonth, setDaysOfTheCurrentMonth] = useState(getMonth(currentYear, currentMonth));
+  let [displayDays, setDisplayDays] = useState(getDays(daysOfTheCurrentMonth, currentDay, currentMonth, currentYear));
+  useEffect(() => {
+    setCurrentMonth(currentDate.getMonth());
+  },[currentDate]);
+  
+  useEffect(() => {
+    setCurrentYear(currentDate.getFullYear());
+  },[currentDate]);
 
+  useEffect(() => {
+    setDaysOfTheCurrentMonth(getMonth(currentYear, currentMonth));
+  },[currentDate, currentMonth, currentYear]);
+
+  useEffect(() => {
+    setDisplayDays(getDays(daysOfTheCurrentMonth, currentDay, currentMonth, currentYear));
+  },[currentDate, currentDay, currentMonth, currentYear, daysOfTheCurrentMonth]);
+
+  const changeMonth = (symbol) => {
+    if (symbol === '+') {
+      setCurrentDate(new Date(currentYear, currentMonth + 1));
+    } else if (symbol === '-') {
+      setCurrentDate(new Date(currentYear, currentMonth - 1));
     }
-  });
-
+  };
+  
   return (
     <div className={ classes.root }>
       <div className={ classes.header }>
-        <button style={ {border: 'none', outline: 'none', background: 'none', cursor: 'pointer'} }>
+        <button style={ {border: 'none', outline: 'none', background: 'none', cursor: 'pointer'} }
+                onClick={ () => changeMonth('-') }>
           <img src={ arrow_back } alt=""/>
         </button>
-        <div className={ classes.title }>{ months[currentMonth] }</div>
-        <button style={ {border: 'none', outline: 'none', background: 'none', cursor: 'pointer'} }>
+        <div className={ classes.title }>{ months[currentMonth % 12] } { currentYear }</div>
+        <button style={ {border: 'none', outline: 'none', background: 'none', cursor: 'pointer'} }
+                onClick={ () => changeMonth('+') }>
           <img src={ arrow_forward } alt=""/>
         </button>
       </div>
@@ -81,6 +104,10 @@ const Calendar = ({classes, ...rest}) => {
       </div>
       <div className={ classes.days }>
         { displayDays }
+      </div>
+      <div className={classes.footer}>
+        <div><TransparentButtonWithoutBorder text='Очистить' isActive={false}/></div>
+        <div><TransparentButtonWithoutBorder text='Очистить' isActive={true}/></div>
       </div>
     </div>)
 };
@@ -122,11 +149,10 @@ const getMonth = (year = 2019, month = 0,) => {
       dates[4] = [...dates[4], i];
     }
 
-  }
-  else if (dates[5].length > 0 ) {
+  } else if (dates[5].length > 0) {
     let range = 7 - dates[5].length || 1;
     for (let i = 1; i <= range; i++) {
-      dates[5] = [...dates[5],i];
+      dates[5] = [...dates[5], i];
     }
 
   }
@@ -145,5 +171,47 @@ const getLastDayOfMonth = (year, month) => {
   let date = new Date(year, month + 1, 0);
   return date.getDate();
 };
-
+const getDays = (daysOfTheCurrentMonth, currentDay, currentMonth, currentYear, arr = []) => {
+  let displayDays = [...arr];
+  for (let i = 0; i < 7; i++) { // первая строчка
+    if (daysOfTheCurrentMonth[0][i] > 7) {
+      displayDays = [...displayDays, <DisableDayBlock day={ daysOfTheCurrentMonth[0][i] }
+                                                      key={ `${ daysOfTheCurrentMonth[0][i] }-${ currentMonth }-${ currentYear } ` }/>]
+    } else {
+      displayDays = [...displayDays,
+        <DayBlock key={ `${ daysOfTheCurrentMonth[0][i] }-${ currentMonth }-${ currentYear }` }
+                  day={ daysOfTheCurrentMonth[0][i] }
+                  currentDay={ currentDay[0] === daysOfTheCurrentMonth[0][i]
+                  && currentDay[1] === currentMonth
+                  && currentDay[2] === currentYear }/>]
+    }
+  }
+  for (let i = 1; i < 4; i++) {
+    daysOfTheCurrentMonth[i].map((day, id) => {
+      displayDays = [...displayDays, <DayBlock key={ `${ id }-${ day }-${ currentMonth }-${ currentYear }` }
+                                               day={ day }
+                                               currentDay={ currentDay[0] === day
+                                               && currentDay[1] === currentMonth
+                                               && currentDay[2] === currentYear }/>];
+    })
+  }
+  for (let i = 4; i < 6; i++) {
+    daysOfTheCurrentMonth[i].map((day, id) => {
+      if (day < 7) {
+        displayDays = [...displayDays, <DisableDayBlock key={ `${ id }-${ day }-${ currentMonth }-${ currentYear }` }
+                                                        day={ day }
+                                                        currentDay={ currentDay[0] === day
+                                                        && currentDay[1] === currentMonth
+                                                        && currentDay[2] === currentYear }/>];
+      } else {
+        displayDays = [...displayDays, <DayBlock key={ `${ id }-${ day }-${ currentMonth }-${ currentYear }` }
+                                                 day={ day }
+                                                 currentDay={ currentDay[0] === day
+                                                 && currentDay[1] === currentMonth
+                                                 && currentDay[2] === currentYear }/>];
+      }
+    })
+  }
+  return displayDays;
+}
 export default injectSheet(classes)(Calendar);
