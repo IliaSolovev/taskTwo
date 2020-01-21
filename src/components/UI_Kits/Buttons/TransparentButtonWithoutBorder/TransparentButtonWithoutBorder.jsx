@@ -19,10 +19,10 @@ const classes = {
   }
 };
 
-const TransparentButtonWithoutBorder = ({text = 'Click me', classes, ...rest}) => {
+const TransparentButtonWithoutBorder = ({text = 'Click me', classes, listener,...rest}) => {
 
   return (
-    <button className={classes.button}>
+    <button className={classes.button} onClick={listener}>
       {text}
     </button>)
 };

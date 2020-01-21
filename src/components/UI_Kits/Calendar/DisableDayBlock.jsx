@@ -18,8 +18,8 @@ const classes = {
   }
 };
 
-const DisableDayBlock = ({classes, day, ...rest}) => {
-  return <div className={classes.root}>{ day }</div>
+const DisableDayBlock = ({classes, date, ...rest}) => {
+  return <div className={classes.root}>{ date[0] }</div>
 };
 
 export default injectSheet(classes)(DisableDayBlock);

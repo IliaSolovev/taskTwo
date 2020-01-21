@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
+    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="Сделал оюычный календарь и date dropdown">
       <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DateDropdown/DateDropdown.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,21 +22,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1W9dsawGP4scYahKVz0i0IUwhpa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateDropdown\image" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Fields" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Calendar\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Fields\SubscriptionTextField\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Paginator\image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\CheckboxList\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\FurnitureDropdown" />
@@ -45,25 +71,6 @@
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Fields" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Calendar\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Fields\SubscriptionTextField\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Paginator\image" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\ProductReview\images" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -79,6 +86,18 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,6 +124,10 @@
       <workItem from="1579029337549" duration="4577000" />
       <workItem from="1579076632096" duration="687000" />
       <workItem from="1579077518010" duration="21045000" />
+      <workItem from="1579456058708" duration="106000" />
+      <workItem from="1579456181101" duration="8338000" />
+      <workItem from="1579510019546" duration="5594000" />
+      <workItem from="1579594903331" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -318,6 +341,17 @@
     <MESSAGE value="Добавил календярь" />
     <MESSAGE value="Добавил MaskedTextFiled" />
     <MESSAGE value="Изменил placeholder в  MaskedTextFiled на русски язык и добавил валидацию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменил placeholder в  MaskedTextFiled на русски язык и добавил валидацию" />
+    <MESSAGE value="Сделал оюычный календарь и date dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал оюычный календарь и date dropdown" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="103" key="CommitChangelistDialog2" timestamp="1579601506252">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579601506252" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1579458272027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579458272027" />
   </component>
 </project>
