@@ -5,7 +5,8 @@ import {Body} from "../../../../Fonts";
 import expand_more from './image/expand_more.png'
 import Calendar from "../../Calendar/Calendar";
 import {CSSTransition} from "react-transition-group";
-import './Datedropdown.css'
+import './FilterRangeDropdown.css'
+import RangeCalendar from "../../RangeCalendar/RangeCalendar";
 
 const classes = {
     field: {
@@ -13,7 +14,7 @@ const classes = {
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '0 15px',
-        width: 150,
+        width: 266,
         height: 44,
         background: '#fff',
         border: `1px solid ${DarkShade25}`,
@@ -27,18 +28,14 @@ const classes = {
 
 };
 
-const DateDropdown = ({classes, ...rest}) => {
+const FilterRangeDropdown = ({classes, ...rest}) => {
+    const months = ['янв', 'фев', 'март', 'апр', 'май', 'июнь', 'июль', 'авг', 'сен', 'окт', 'ноя', 'дек',];
     let [isOpenCalendar, setIsOpenCalendar] = useState(false);
-    let [text,setText] = useState('ДД.ММ.ГГГГ');
     let temp;
+    let [text, setText] = useState('Выберите дату');
 
-    const onSubmit = (date) => {
-        if(date[1] + 1 < 10){
-            temp=`${date[0]}.0${date[1] + 1}.${date[2]}`
-        }else{
-            temp=`${date[0]}.${date[1] + 1}.${date[2]}`
-        }
-        setText(temp)
+    const onSubmit = (day,month) => {
+        setText(`${day[0]} ${months[month]} - ${day[1]} ${months[month]}`)
     };
     return (
         <>
@@ -49,10 +46,12 @@ const DateDropdown = ({classes, ...rest}) => {
             </div>
             <CSSTransition in={isOpenCalendar} timeout={200} unmountOnExit classNames='dateDropdown'>
                 <div className={classes.calendar}>
-                    <Calendar type='simple' onSubmit={onSubmit} onClear={() => {temp=''}}/>
+                    <RangeCalendar onSubmit={onSubmit} onClear={() => {
+                        temp = ''
+                    }}/>
                 </div>
             </CSSTransition>
         </>)
 };
 
-export default injectSheet(classes)(DateDropdown)
+export default injectSheet(classes)(FilterRangeDropdown)

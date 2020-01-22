@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="Сделал оюычный календарь и date dropdown">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DateDropdown/DateDropdown.jsx" afterDir="false" />
+    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FilterRangeDropdown/image/expand_more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/DayBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/DisableDayBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/Functions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/RangeCalendar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/images/arrow_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/images/arrow_forward.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DateDropdown/DateDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DateDropdown/DateDropdown.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,19 +66,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\RangeCalendar" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateRangeDropdown" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\CheckboxList\images" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\FurnitureDropdown" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateDropdown\image" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Fields" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Calendar\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Fields\SubscriptionTextField\images" />
       <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Paginator\image" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\CheckboxList\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\FurnitureDropdown" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\CheckboxButton" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Buttons\TransparentButton" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -128,6 +137,9 @@
       <workItem from="1579456181101" duration="8338000" />
       <workItem from="1579510019546" duration="5594000" />
       <workItem from="1579594903331" duration="2501000" />
+      <workItem from="1579601611872" duration="3337000" />
+      <workItem from="1579682064879" duration="4128000" />
+      <workItem from="1579691383661" duration="1065000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -297,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579107347412</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Сделал обычный календарь и date dropdown">
+      <created>1579601643671</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1579601643671</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил 4 простые кнопки" />
     <MESSAGE value="Добавил Radio Button" />
     <MESSAGE value="Добавил Toggle" />
     <MESSAGE value="Добавил Like Button" />
@@ -342,16 +360,21 @@
     <MESSAGE value="Добавил MaskedTextFiled" />
     <MESSAGE value="Изменил placeholder в  MaskedTextFiled на русски язык и добавил валидацию" />
     <MESSAGE value="Сделал оюычный календарь и date dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал оюычный календарь и date dropdown" />
+    <MESSAGE value="Сделал обычный календарь и date dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал обычный календарь и date dropdown" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="103" key="CommitChangelistDialog2" timestamp="1579601506252">
+    <state x="479" y="103" key="CommitChangelistDialog2" timestamp="1579601641860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579601506252" />
+    <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579601641860" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579458272027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579458272027" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579601694805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579601694805" />
   </component>
 </project>
