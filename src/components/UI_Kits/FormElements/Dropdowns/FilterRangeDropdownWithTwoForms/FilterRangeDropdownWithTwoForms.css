@@ -1,0 +1,15 @@
+.filterRangeDropdownWithTwoForms-enter {
+    opacity: 0;
+
+}
+.filterRangeDropdownWithTwoForms-enter-active {
+    opacity: 1;
+    transition: all .7s;
+}
+.filterRangeDropdownWithTwoForms-exit {
+    opacity: 1;
+}
+.filterRangeDropdownWithTwoForms-exit-active {
+    opacity: 0;
+    transition: all .7s;
+}
