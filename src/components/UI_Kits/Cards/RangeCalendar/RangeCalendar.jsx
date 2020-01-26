@@ -97,6 +97,7 @@ const RangeCalendar = ({classes, onSubmit, onClear,type='solo', ...rest}) => {
     };
     const clear = () => {
         setActiveDay([null,null]);
+        onClear();
     };
     let [displayDays, setDisplayDays] = useState(getDays(daysOfTheCurrentMonth, currentDay, currentMonth, currentYear, [], onSelectDate, activeDays));
 

@@ -25,9 +25,9 @@ const classes = {
 
 const DropdownFiled = ({classes, text = 'Сколько гостей',setUsOpen,...rest}) => {
   return (
-    <div className={ classes.root }>
+    <div className={ classes.root } onClick={setUsOpen}>
       <div>{ text }</div>
-      <div onClick={setUsOpen}><img src={ expand_more } alt="Expand more" className={classes.image}/></div>
+      <div onClick={setUsOpen} className={classes.image}><img src={ expand_more } alt="Expand more" /></div>
     </div>
   )
 };

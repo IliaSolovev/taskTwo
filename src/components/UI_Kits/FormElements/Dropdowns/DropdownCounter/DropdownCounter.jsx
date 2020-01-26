@@ -36,8 +36,10 @@ const DropdownCounter = ({classes, title = 'спальни', id, setValues, ...r
       setValues(id, value + 1);
     }
     else {
-      if (value - 1 >= 0) setValue(value - 1);
-      setValues(id, value - 1);
+      if (value - 1 >= 0) {
+        setValue(value - 1);
+        setValues(id, value - 1);
+      }
     }
   };
   useEffect(() => {

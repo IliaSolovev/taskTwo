@@ -30,27 +30,36 @@ const classes = {
     }
 };
 
-const FilterRangeDropdownWithTwoForms = ({classes, ...rest}) => {
+const FilterRangeDropdownWithTwoForms = ({classes,setDaysCount = ()=>{},...rest}) => {
     const months = ['янв', 'фев', 'март', 'апр', 'май', 'июнь', 'июль', 'авг', 'сен', 'окт', 'ноя', 'дек',];
     let [isOpenCalendar, setIsOpenCalendar] = useState(false);
-    let temp;
     let [textFirst, setTextFirst] = useState('ДД.ММ.ГГГГ');
     let [textSecond, setTextSecond] = useState('ДД.ММ.ГГГГ');
 
     const onSubmit = (date, month) => {
+        if(!date[0] || !date[1]){
+            alert('Выерите дату!!!');
+            setTextFirst('ДД.ММ.ГГГГ');
+            setTextSecond('ДД.ММ.ГГГГ');
+            return;
+        }
         if (date[0][1] + 1 < 10) {
-            temp = `${date[0][0]}.0${date[0][1] + 1}.${date[0][2]}`
+            setTextFirst(`${date[0][0]}.0${date[0][1] + 1}.${date[0][2]}`)
         } else {
-            temp = `${date[0][0]}.${date[0][1] + 1}.${date[0][2]}`
+            setTextFirst(`${date[0][0]}.${date[0][1] + 1}.${date[0][2]}`)
         }
-        setTextFirst(temp);
         if (date[1][1] + 1 < 10) {
-            temp = `${date[1][0]}.0${date[1][1] + 1}.${date[1][2]}`
+            setTextSecond(`${date[1][0]}.0${date[1][1] + 1}.${date[1][2]}`)
         } else {
-            temp = `${date[1][0]}.${date[1][1] + 1}.${date[1][2]}`
+            setTextSecond(`${date[1][0]}.${date[1][1] + 1}.${date[1][2]}`)
         }
-        setTextSecond(temp);
         setIsOpenCalendar(false);
+        setDaysCount(date[1][0] - date[0][0]);
+    };
+    const onClear= () => {
+        setTextFirst('ДД.ММ.ГГГГ');
+        setTextSecond('ДД.ММ.ГГГГ');
+        setDaysCount(0);
     };
     return (
         <>
@@ -69,9 +78,7 @@ const FilterRangeDropdownWithTwoForms = ({classes, ...rest}) => {
 
             <CSSTransition in={isOpenCalendar} timeout={600} unmountOnExit classNames='filterRangeDropdownWithTwoForms'>
                 <div className={classes.calendar}>
-                    <RangeCalendar onSubmit={onSubmit} type='duo' onClear={() => {
-                        temp = ''
-                    }}/>
+                    <RangeCalendar onSubmit={onSubmit} type='duo' onClear={onClear}/>
                 </div>
             </CSSTransition>
         </>)

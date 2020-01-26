@@ -28,9 +28,9 @@ const classes = {
     }
 };
 
-const BigButton = ({classes, text = 'Перейти к оплате', type = '', ...rest}) => {
+const BigButton = ({classes, text = 'Перейти к оплате', type = '', listener, ...rest}) => {
     return (
-        <button type={type} className={classes.button}>
+        <button type={type} className={classes.button} onClick={listener}>
             <div className={classes.text}>{text}</div>
             <ArrowForwardIcon className={classes.arrow}/>
         </button>)

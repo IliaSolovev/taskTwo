@@ -1,78 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/FindRoom.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/image/expand_more.png" afterDir="false" />
+    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="Завершил блок с поиском номеров">
+      <change afterPath="$PROJECT_DIR$/src/components/Constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/CostItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Costs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Date.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Guests.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Total.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/ColorsAndTypes/Colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/ColorsAndTypes/Fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/BulletList/BulletList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/BulletList/BulletList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/BulletList/images/Ellipse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/BulletList/images/Ellipse.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/CheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/CheckboxButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/checkbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/CheckboxButton/images/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/images/Vector.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/LikeButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/LikeButton/LikeButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/images/favorite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/LikeButton/images/favorite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/LikeButton/images/favorite_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/LikeButton/images/favorite_border.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/PayButton/BigButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/BigButton/BigButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RadioButton/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RadioButton/RadioButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RadioButton/RadioButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RateButton/RateButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RateButton/RateButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RateButton/images/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RateButton/images/star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RateButton/images/star_border.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RateButton/images/star_border.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/RichCheckboxButton/RichCheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RichCheckboxButton/RichCheckboxButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/Toggle/Toggle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/Toggle/Toggle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/TransparentButton/TransparentButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/TransparentButton/TransparentButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/Calendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/DayBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/DayBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/DisableDayBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/DisableDayBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/images/arrow_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/images/arrow_back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Calendar/images/arrow_forward.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/images/arrow_forward.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/CheckboxList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/CheckboxList/CheckboxList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/CheckboxList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/CheckboxList/CheckboxList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/images/expand_more_down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/CheckboxList/images/expand_more_down.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/CheckboxList/images/expand_more_up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/CheckboxList/images/expand_more_up.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DateDropdown/DateDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DateDropdown/DateDropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/DropdownCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/DropdownCounter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/images/+.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/images/+.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownCounter/images/-.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/images/-.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownFiled/DropdownFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/DropdownFiled.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/DropdownFiled/images/expand_more.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/images/expand_more.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FilterRangeDropdown/image/expand_more.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdown/image/expand_more.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FurnitureDropdown/FurnitureDropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FurnitureDropdown/FurnitureDropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/FurnitureDropdown/FurnitureDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FurnitureDropdown/FurnitureDropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/GuestsDropdown/GuestsDropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/GuestsDropdown/GuestsDropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/GuestsDropdown/GuestsDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/GuestsDropdown/GuestsDropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Dropdowns/ParseWord.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/ParseWord.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/MaskedTextFiled/MaskedtextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Fields/MaskedTextFiled/MaskedtextFiled.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/SubscriptionTextField/SubscriptionTextField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Fields/SubscriptionTextField/SubscriptionTextField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/SubscriptionTextField/images/arrow_forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Fields/SubscriptionTextField/images/arrow_forward.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Fields/TextFiled/TextFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Fields/TextFiled/TextFiled.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/LogIn/LogIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/LogIn/LogIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Paginator/Paginator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Paginator/image/arrow_forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Paginator/image/arrow_forward.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/ProductReview/ProductReview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/ProductReview/ProductReview.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/ProductReview/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/ProductReview/images/image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/DayBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/DayBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/DisableDayBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/DisableDayBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/Functions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/Functions.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/RangeCalendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/RangeCalendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/images/arrow_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/images/arrow_back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RangeCalendar/images/arrow_forward.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/images/arrow_forward.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RangeSlider/RangeSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/RangeSlider/RangeSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RoomDetails/RoomDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/RoomDetails/RoomDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/RoomDetails/images/insert_emoticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/RoomDetails/images/insert_emoticon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/FindRoom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/FindRoom.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/RangeCalendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/RangeCalendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/BigButton/BigButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/BigButton/BigButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/DropdownCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/DropdownCounter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/DropdownFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/DropdownFiled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -202,7 +147,17 @@
       <workItem from="1579691383661" duration="1097000" />
       <workItem from="1579710201648" duration="2043000" />
       <workItem from="1579713831916" duration="605000" />
-      <workItem from="1579773957976" duration="7407000" />
+      <workItem from="1579773957976" duration="7448000" />
+      <workItem from="1579787159613" duration="688000" />
+      <workItem from="1579868228154" duration="599000" />
+      <workItem from="1579869081820" duration="407000" />
+      <workItem from="1579869508698" duration="734000" />
+      <workItem from="1579945177789" duration="3700000" />
+      <workItem from="1579959525131" duration="1779000" />
+      <workItem from="1579961326685" duration="754000" />
+      <workItem from="1580029515797" duration="3171000" />
+      <workItem from="1580038399898" duration="2328000" />
+      <workItem from="1580062265918" duration="4055000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -386,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579692469318</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Добавил блок с поиском номеров">
+      <created>1579782976002</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579782976002</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,8 +368,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил Toggle" />
-    <MESSAGE value="Добавил Like Button" />
     <MESSAGE value="Добавил Rate Button" />
     <MESSAGE value="Добавил CheckBox Button" />
     <MESSAGE value="Обновил CheckBox Button" />
@@ -431,20 +391,39 @@
     <MESSAGE value="Сделал оюычный календарь и date dropdown" />
     <MESSAGE value="Сделал обычный календарь и date dropdown" />
     <MESSAGE value="Сделал обычный календарь и filter date dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал обычный календарь и filter date dropdown" />
+    <MESSAGE value="Добавил блок с поиском номеров" />
+    <MESSAGE value="Завершил блок с поиском номеров" />
+    <option name="LAST_COMMIT_MESSAGE" value="Завершил блок с поиском номеров" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="103" key="CommitChangelistDialog2" timestamp="1579692467817">
+    <state x="552" y="142" key="#JavaScript" timestamp="1579951320238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="142" key="#JavaScript/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579951320238" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579960010595">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579960010595" />
+    <state x="479" y="52" key="CommitChangelistDialog2" timestamp="1580068234764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/-1280.311.1280.680@0.0.1920.1040" timestamp="1579782972986" />
+    <state x="479" y="52" key="CommitChangelistDialog2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1580068234764" />
     <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579692467817" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1579458272027">
+    <state x="478" y="285" key="SettingsEditor" timestamp="1579963721243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="478" y="285" key="SettingsEditor/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579963721243" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579458272027" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579692473539">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580068122857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.311.1280.680@0.0.1920.1040" timestamp="1579787189587" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1580068122857" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579692473539" />
+    <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579951620108">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579951620108" />
   </component>
 </project>
