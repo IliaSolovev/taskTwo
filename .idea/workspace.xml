@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="Завершил блок с поиском номеров">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/Functions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Registration/Registration.jsx" afterDir="false" />
+    <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Room/Room.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Room/RoomRadioButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Room/image/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/Calendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Total.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Total.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RateButton/RateButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RateButton/RateButton.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/Cards/Room/image" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,19 +62,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\taskTwo\src\components\UI_Kits\Cards\Calendar" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\Dropdowns" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\RangeCalendar" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateRangeDropdown" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\CheckboxList\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\RoomDetails" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\Buttons" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Fields" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\ColorsAndTypes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\taskTwo\src\components\UI_Kits\Cards\Room\image" />
+      <recent name="D:\projects\taskTwo\src\components\UI_Kits\Cards\Calendar" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\Dropdowns" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\RangeCalendar" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateRangeDropdown" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -149,7 +150,8 @@
       <workItem from="1580038399898" duration="2328000" />
       <workItem from="1580062265918" duration="4055000" />
       <workItem from="1580122445876" duration="662000" />
-      <workItem from="1580123495999" duration="2981000" />
+      <workItem from="1580123495999" duration="3127000" />
+      <workItem from="1580128848560" duration="6391000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -340,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579782976002</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Добавил блок с регистрацией">
+      <created>1580126527607</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1580126527607</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +369,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил Rate Button" />
     <MESSAGE value="Добавил CheckBox Button" />
     <MESSAGE value="Обновил CheckBox Button" />
     <MESSAGE value="Добавил Text Filed" />
@@ -385,9 +393,14 @@
     <MESSAGE value="Сделал обычный календарь и filter date dropdown" />
     <MESSAGE value="Добавил блок с поиском номеров" />
     <MESSAGE value="Завершил блок с поиском номеров" />
-    <option name="LAST_COMMIT_MESSAGE" value="Завершил блок с поиском номеров" />
+    <MESSAGE value="Добавил блок с регистрацией" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил блок с регистрацией" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Images" timestamp="1580131608817">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Images/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580131608817" />
     <state x="552" y="142" key="#JavaScript" timestamp="1580124427175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -397,10 +410,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579960010595" />
-    <state x="479" y="52" key="CommitChangelistDialog2" timestamp="1580068234764">
+    <state x="479" y="52" key="CommitChangelistDialog2" timestamp="1580126526496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/-1280.311.1280.680@0.0.1920.1040" timestamp="1579782972986" />
+    <state x="479" y="52" key="CommitChangelistDialog2/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580126526496" />
     <state x="479" y="52" key="CommitChangelistDialog2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1580068234764" />
     <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579692467817" />
     <state x="478" y="285" key="SettingsEditor" timestamp="1580124444277">
@@ -409,15 +423,20 @@
     <state x="478" y="285" key="SettingsEditor/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580124444277" />
     <state x="478" y="285" key="SettingsEditor/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579963721243" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579458272027" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580068122857">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580126531924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.311.1280.680@0.0.1920.1040" timestamp="1579787189587" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580126531924" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1580068122857" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579692473539" />
     <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579951620108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579951620108" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580132910340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580132910340" />
   </component>
 </project>

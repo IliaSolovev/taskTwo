@@ -19,39 +19,54 @@ const ClassesButton = {
   },
 };
 
-const Rate = ({classes, isFill, id, mouseOverListener, clickListener, ...rest}) => {
+const Rate = ({classes, isFill, id, mouseOverListener = () => {}, clickListener = () => {}, ...rest}) => {
 
   return (
-    <div onMouseOver={ () => mouseOverListener(id) } onClick={ () => clickListener(id) } className={ classes.rate } >
-      <img src={ isFill ? star : star_border } alt=""/>
+    <div onMouseOver={() => mouseOverListener(id)} onClick={() => clickListener(id)} className={classes.rate}>
+      <img src={isFill ? star : star_border} alt=""/>
     </div>)
 };
 
 const StyledRate = injectSheet(classesRate)(Rate);
 
-const RateButton = ({defaultValue = 0, classes, ...rest}) => {
-  const [rate, setRate] = useState(0);
-  const [tempRate, setTampRate] = useState(0);
+const RateButton = ({defaultValue = 0, classes, isActive = true, ...rest}) => {
+
+  const [rate, setRate] = useState(defaultValue);
+  const [tempRate, setTampRate] = useState(defaultValue);
   const mouseOverListener = (id) => {
     setTampRate(id);
   };
   const clickListener = (id) => {
     setRate(id);
   };
+  let rates;
+  if (!isActive) {
+    rates = [1, 2, 3, 4, 5].map(item => {
+      let isFill = false;
+      if (item <= tempRate) {
+        isFill = true;
+      } else if (item <= rate) {
+        isFill = true;
+      }
+      return (<StyledRate key={item} id={item} isFill={isFill}/>)
+    });
+  } else {
+    rates = [1, 2, 3, 4, 5].map(item => {
+      let isFill = false;
+      if (item <= tempRate) {
+        isFill = true;
+      } else if (item <= rate) {
+        isFill = true;
+      }
+      return (<StyledRate key={item} id={item} mouseOverListener={mouseOverListener}
+                          clickListener={clickListener} isFill={isFill}/>)
+    });
+  }
 
-  let rates = [1, 2, 3, 4, 5].map(item => {
-    let isFill = false;
-    if (item <= tempRate) {
-      isFill = true;}
-    else if (item <= rate) {
-      isFill = true;}
-    return (<StyledRate key={ item } id={ item } mouseOverListener={ mouseOverListener }
-                        clickListener={ clickListener } isFill={ isFill }/>)
-  });
 
   return (
-    <div className={ classes.root } onMouseLeave={() => mouseOverListener(0)}>
-      { rates }
+    <div className={classes.root} onMouseLeave={() => mouseOverListener(0)}>
+      {rates}
     </div>)
 };
 
