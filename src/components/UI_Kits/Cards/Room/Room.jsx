@@ -3,7 +3,7 @@ import injectSheet from 'react-jss';
 import img from './image/image.png';
 import RoomRadioButton from "./RoomRadioButton";
 import RateButton from "../../FormElements/Buttons/RateButton/RateButton";
-import {DarkShade10, DarkShade25, DarkShade50} from "../../ColorsAndTypes/Colors";
+import {DarkShade10, DarkShade25, DarkShade50, Purple} from "../../ColorsAndTypes/Colors";
 import {Body, H3} from "../../ColorsAndTypes/Fonts";
 
 const classes = {
@@ -45,17 +45,23 @@ const classes = {
     color: DarkShade50
   },
   boldSpan: {
-    fontWeight:'bold'
+    fontWeight: 'bold'
   },
   hr: {
     width: 230,
     height: 1,
     background: DarkShade10
+  },
+  premium:{
+    ...H3,
+    fontWeight: 'bold',
+    color: Purple,
+    textTransform: 'uppercase'
   }
 
 };
 
-const Room = ({classes, number = 666, worth = 5000, rate = 4, callBackCount = 25, image = img, ...rest}) => {
+const Room = ({classes, number = 666, worth = 5000, rate = 4, callBackCount = 25, image = img, type = '', ...rest}) => {
   return (
     <div className={classes.root}>
       <div className={classes.imageCarousel}>
@@ -64,7 +70,10 @@ const Room = ({classes, number = 666, worth = 5000, rate = 4, callBackCount = 25
       </div>
       <div className={classes.status}>
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
-          <div className={classes.number}><span>№</span> {number}</div>
+          <div className={classes.number}>
+            <span>№</span> {number}
+            <b className={classes.premium}>  {type}</b>
+          </div>
           <div className={classes.worth}><span className={classes.boldSpan}>{worth}₽</span> в сутки</div>
         </div>
         <div className={classes.hr}/>
