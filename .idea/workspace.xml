@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="Завершил блок с поиском номеров">
-      <change afterPath="$PROJECT_DIR$/src/components/Constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/CostItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Costs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Date.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Guests.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Total.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/Functions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Registration/Registration.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/FindRoom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/FindRoom.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/RangeCalendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/RangeCalendar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/BigButton/BigButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/BigButton/BigButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/DropdownCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/DropdownCounter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/DropdownFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/DropdownFiled.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/Calendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar/Calendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Total.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Total.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/Cards/Calendar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,19 +61,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\taskTwo\src\components\UI_Kits\Cards\Calendar" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\Dropdowns" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\RangeCalendar" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateRangeDropdown" />
+      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\CheckboxList\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\RoomDetails" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\Buttons" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Fields" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\ColorsAndTypes" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\Dropdowns" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\RangeCalendar" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateRangeDropdown" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\CheckboxList\images" />
-      <recent name="C:\Users\Ilya\WebstormProjects\task\src\components\UI_Kits\Dropdowns\FurnitureDropdown" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -158,6 +148,8 @@
       <workItem from="1580029515797" duration="3171000" />
       <workItem from="1580038399898" duration="2328000" />
       <workItem from="1580062265918" duration="4055000" />
+      <workItem from="1580122445876" duration="662000" />
+      <workItem from="1580123495999" duration="2981000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -396,9 +388,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Завершил блок с поиском номеров" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="142" key="#JavaScript" timestamp="1579951320238">
+    <state x="552" y="142" key="#JavaScript" timestamp="1580124427175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="142" key="#JavaScript/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580124427175" />
     <state x="552" y="142" key="#JavaScript/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579951320238" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579960010595">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -410,9 +403,10 @@
     <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/-1280.311.1280.680@0.0.1920.1040" timestamp="1579782972986" />
     <state x="479" y="52" key="CommitChangelistDialog2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1580068234764" />
     <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579692467817" />
-    <state x="478" y="285" key="SettingsEditor" timestamp="1579963721243">
+    <state x="478" y="285" key="SettingsEditor" timestamp="1580124444277">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="478" y="285" key="SettingsEditor/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580124444277" />
     <state x="478" y="285" key="SettingsEditor/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579963721243" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579458272027" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580068122857">

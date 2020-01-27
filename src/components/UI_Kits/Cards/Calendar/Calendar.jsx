@@ -4,7 +4,8 @@ import {DarkShade100, DarkShade25, DarkShade5, Purple} from "../../ColorsAndType
 import arrow_back from './images/arrow_back.png';
 import arrow_forward from './images/arrow_forward.png';
 import {H1, H3} from "../../ColorsAndTypes/Fonts";
-import TransparentButtonWithoutBorder from "../../FormElements/Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder";
+import TransparentButtonWithoutBorder
+    from "../../FormElements/Buttons/TransparentButtonWithoutBorder/TransparentButtonWithoutBorder";
 import {getDays, getMonth} from "./Functions";
 
 
