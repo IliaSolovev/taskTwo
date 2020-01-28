@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/FooterWithSubscribe/FooterList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/FooterWithSubscribe/FooterWithSubscribe.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Header/LoginOrRegistration.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Header/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Links/Links.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/images/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/images/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/images/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Fields/SubscriptionTextField/SubscriptionTextField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Fields/SubscriptionTextField/SubscriptionTextField.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +150,8 @@
       <workItem from="1580128848560" duration="7153000" />
       <workItem from="1580155997067" duration="3189000" />
       <workItem from="1580204974594" duration="3908000" />
-      <workItem from="1580211823268" duration="6350000" />
+      <workItem from="1580211823268" duration="6842000" />
+      <workItem from="1580237343089" duration="1975000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>
@@ -374,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580136973666</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="добавил Header и Footer с двумя секциями">
+      <created>1580225993915</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1580225993915</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил Text Filed" />
     <MESSAGE value="Добавил Dropdown для гостей" />
     <MESSAGE value="Добавил Dropdown для мебели" />
     <MESSAGE value="Добавил Checkbox list" />
@@ -419,7 +414,8 @@
     <MESSAGE value="Добавил блок с регистрацией" />
     <MESSAGE value="Добавил блок карту с комнатами" />
     <MESSAGE value="добавил в блок карту стиль для надпись люкс" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил в блок карту стиль для надпись люкс" />
+    <MESSAGE value="добавил Header и Footer с двумя секциями" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил Header и Footer с двумя секциями" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Images" timestamp="1580131608817">
@@ -435,11 +431,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579960010595" />
-    <state x="479" y="52" key="CommitChangelistDialog2" timestamp="1580136972917">
+    <state x="479" y="52" key="CommitChangelistDialog2" timestamp="1580225992203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/-1280.311.1280.680@0.0.1920.1040" timestamp="1579782972986" />
-    <state x="479" y="52" key="CommitChangelistDialog2/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580136972917" />
+    <state x="479" y="52" key="CommitChangelistDialog2/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580225992203" />
     <state x="479" y="52" key="CommitChangelistDialog2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1580068234764" />
     <state x="479" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579692467817" />
     <state x="478" y="285" key="SettingsEditor" timestamp="1580124444277">
@@ -448,11 +444,11 @@
     <state x="478" y="285" key="SettingsEditor/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580124444277" />
     <state x="478" y="285" key="SettingsEditor/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1579963721243" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579458272027" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580136980075">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1580225997721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1280.311.1280.680@0.0.1920.1040" timestamp="1579787189587" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580136980075" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.302.1366.728@0.0.1920.1040" timestamp="1580225997721" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.312.1366.768@0.0.1920.1040" timestamp="1580068122857" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.304.1366.728@0.0.1920.1040" timestamp="1579692473539" />
     <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579951620108">

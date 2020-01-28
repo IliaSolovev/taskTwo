@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import './components/UI_Kits/FormElements/Buttons/CheckboxButton/checkbox.css'
 import injectSheet from 'react-jss';
-import FooterWithSubscribe from "./components/UI_Kits/FooterWithSubscribe/FooterWithSubscribe";
 import Header from "./components/UI_Kits/Header/Header";
 import {extraLarge, medium, small} from "./components/Media";
+import Footer from "./components/UI_Kits/Footer/Footer";
 
 const classes = {
   root: {
@@ -30,7 +30,7 @@ const classes = {
 const App = ({classes, ...rest}) => {
   return (
     <div className={classes.root}>
-      <Header/>
+      <Footer/>
     </div>
   );
 };
