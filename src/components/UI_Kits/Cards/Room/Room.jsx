@@ -40,7 +40,7 @@ const classes = {
     color: DarkShade50
   },
   rate: {},
-  callBackCount: {
+  feedback: {
     ...Body,
     color: DarkShade50
   },
@@ -61,7 +61,7 @@ const classes = {
 
 };
 
-const Room = ({classes, number = 666, worth = 5000, rate = 4, callBackCount = 25, image = img, type = '', ...rest}) => {
+const Room = ({classes, number = 666, worth = 5000, rate = 4, feedback = 25, image = img, type = '', ...rest}) => {
   return (
     <div className={classes.root}>
       <div className={classes.imageCarousel}>
@@ -81,7 +81,7 @@ const Room = ({classes, number = 666, worth = 5000, rate = 4, callBackCount = 25
           <div className={classes.rate}>
             <RateButton defaultValue={rate} isActive={false}/>
           </div>
-          <div className={classes.callBackCount}><span className={classes.boldSpan}>{callBackCount}</span> Отзывов</div>
+          <div className={classes.feedback}><span className={classes.boldSpan}>{feedback}</span> Отзывов</div>
         </div>
       </div>
     </div>

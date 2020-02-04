@@ -62,7 +62,7 @@ const FurnitureDropdown = ({classes, ...rest}) => {
   return (
     <div>
       <DropdownFiled text={ text } setUsOpen={ () => setUsOpen(!isOpen) }/>
-      <CSSTransition in={ isOpen } timeout={ 1000 } classNames='guestsDropdown' unmountOnExit>
+      <CSSTransition in={ isOpen } timeout={ 200 } classNames='guestsDropdown' unmountOnExit>
         <div className={ classes.content }>
           <div>
             { titles.map((title, id) => <DropdownCounter key={ id } title={ title }
