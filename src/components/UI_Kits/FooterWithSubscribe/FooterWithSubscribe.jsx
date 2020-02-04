@@ -44,7 +44,7 @@ const classes = {
     height: 70,
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'start',
+    alignItems: 'center',
   }
 };
 
@@ -61,9 +61,9 @@ const FooterWithSubscribe = ({classes, ...rest}) => {
             </div>
           </div>
 
-          <FooterList items={['About Us', 'News', 'Support', 'Products']} title='Navigation'/>
+          <FooterList items={['About Us', 'News', 'Support', 'Products']} title='NAVIGATION'/>
           <FooterList items={['Who we are', 'Our team', 'Careers', 'Investors']} title='ABOUT US'/>
-          <FooterList items={['Documentation', 'Community', 'Get in Touch']} title='Support'/>
+          <FooterList items={['Documentation', 'Community', 'Get in Touch']} title='SUPPORT'/>
 
           <div className={classes.subscribe}>
             <div className={classes.subscribeTitle}>Subscribe to our newsletter</div>

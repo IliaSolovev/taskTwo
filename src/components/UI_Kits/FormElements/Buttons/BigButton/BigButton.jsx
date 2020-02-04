@@ -17,6 +17,7 @@ const classes = {
         ...H3,
         color: '#FFFFFF',
         textTransform: 'uppercase',
+        textDecoration: 'none',
         cursor: 'pointer',
         outline: 'none',
         border: 'none',
@@ -28,7 +29,7 @@ const classes = {
     }
 };
 
-const BigButton = ({classes, text = 'Перейти к оплате', type = '', listener, ...rest}) => {
+const BigButton = ({classes, text = 'Перейти к оплате', type = '', listener = () =>{}, ...rest}) => {
     return (
         <button type={type} className={classes.button} onClick={listener}>
             <div className={classes.text}>{text}</div>

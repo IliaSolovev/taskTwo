@@ -12,6 +12,7 @@ import Header from "./Header";
 import Costs from "./Costs";
 import {roomWorth} from "../../../Constants";
 import Total from "./Total";
+import {Link} from "react-router-dom";
 
 const classes = {
   root: {
@@ -35,14 +36,14 @@ const FindRoom = ({classes, ...rest}) => {
   };
   return (
     <>
-      <div className={classes.root}>
-        <Header isFound={isFound} number={888}/>
-        <Date setDaysCount={setDaysCount}/>
+      <div className={ classes.root }>
+        <Header isFound={ isFound } number={ 888 }/>
+        <Date setDaysCount={ setDaysCount }/>
         <Guests/>
-        {isFound && <Costs daysCount={daysCount || 1} worthNumber={worthNumber}
-        />}
-        {isFound && <Total cost={(daysCount || 1) * roomWorth + 300}/>}
-        <BigButton text={'подобрать номер'} listener={() => setIsFound(true)}/>
+        { isFound && <Costs daysCount={ daysCount } worthNumber={ worthNumber }/> }
+        { isFound && <Total cost={ (daysCount ) * roomWorth + 300 }/> }
+        { !isFound && <BigButton text={ 'подобрать номер' } listener={ () => setIsFound(true) }/> }
+        {isFound && <Link to='/rooms'><BigButton text={ 'забронировать' }/></Link>}
       </div>
     </>
   )

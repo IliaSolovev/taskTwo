@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import injectSheet from 'react-jss';
-import CheckboxButton from "../../Buttons/CheckboxButton/CheckboxButton";
+import CheckboxButton from "../../Buttons/CheckboxButtons/CheckboxButton";
 import expand_more_down from './images/expand_more_down.svg';
 import expand_more_up from './images/expand_more_up.svg';
 import {H3} from "../../../ColorsAndTypes/Fonts";

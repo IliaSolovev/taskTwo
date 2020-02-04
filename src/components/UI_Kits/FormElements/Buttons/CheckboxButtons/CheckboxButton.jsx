@@ -12,7 +12,7 @@ const classes = {
   }
 };
 
-const CheckboxButton = ({values, width = 222, height = 101, classes,isRich = false, ...rest}) => {
+const CheckboxButtons = ({values=['Можно курить'], width = 222, height = 101, classes,isRich = false, ...rest}) => {
   let buttons;
   if(isRich){
     buttons = values.map((value, id) => {
@@ -30,4 +30,4 @@ const CheckboxButton = ({values, width = 222, height = 101, classes,isRich = fal
     </div>)
 };
 
-export default injectSheet(classes)(CheckboxButton);
+export default injectSheet(classes)(CheckboxButtons);

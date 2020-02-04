@@ -1,5 +1,5 @@
 import React from "react";
-import CheckboxButton from "../CheckboxButton/CheckboxButton";
+import CheckboxButton from "../CheckboxButtons/CheckboxButton";
 
 const RichCheckboxButton = () => {
   const values = [

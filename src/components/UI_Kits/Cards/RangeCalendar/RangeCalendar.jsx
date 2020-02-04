@@ -54,7 +54,7 @@ const classes = {
 
 };
 
-const RangeCalendar = ({classes, onSubmit, onClear,type='solo', ...rest}) => {
+const RangeCalendar = ({classes, onSubmit, onClear,type='solo', setIsOpen, ...rest}) => {
     const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь',];
     let [currentDate, setCurrentDate] = useState(new Date());
     let [currentMonth, setCurrentMonth] = useState(currentDate.getMonth());
@@ -146,8 +146,8 @@ const RangeCalendar = ({classes, onSubmit, onClear,type='solo', ...rest}) => {
                 {displayDays}
             </div>
             <div className={classes.footer}>
-                <div><TransparentButtonWithoutBorder text='Очистить' isActive={false} listener={clear}/></div>
-                <div><TransparentButtonWithoutBorder text='Применить' isActive={true} listener={submit}/></div>
+                <div onClick={setIsOpen}><TransparentButtonWithoutBorder text='Очистить' isActive={false} listener={clear}/></div>
+                <div onClick={setIsOpen}><TransparentButtonWithoutBorder text='Применить' isActive={true} listener={submit}/></div>
             </div>
         </div>)
 };

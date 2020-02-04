@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40262814-4931-40cc-b6ae-28dc610b90aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI_Kits/Footer/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Sections/FindroomBlock/FindRoomBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Sections/FindroomBlock/image/findRoomBackgroundImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Sections/FoundRooms/FoundRooms.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Costs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/Costs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/FindRoom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/FindRoom/FindRoom.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/RangeCalendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/Cards/RangeCalendar/RangeCalendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FooterWithSubscribe/FooterList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FooterWithSubscribe/FooterList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FooterWithSubscribe/FooterWithSubscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FooterWithSubscribe/FooterWithSubscribe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/BigButton/BigButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/BigButton/BigButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButtons/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/CheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButtons/CheckboxButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButtons/checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButton/images/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/CheckboxButtons/images/Vector.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RichCheckboxButton/RichCheckboxButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Buttons/RichCheckboxButton/RichCheckboxButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/CheckboxList/CheckboxList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/CheckboxList/CheckboxList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/DropdownCounter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownCounter/DropdownCounter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/DropdownFiled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/DropdownFiled/DropdownFiled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdown/FilterRangeDropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FilterRangeDropdownWithTwoForms/FilterRangeDropdownWithTwoForms.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FurnitureDropdown/FurnitureDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/FurnitureDropdown/FurnitureDropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/GuestsDropdown/GuestsDropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI_Kits/FormElements/Dropdowns/GuestsDropdown/GuestsDropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI_Kits/Cards/Room/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/image" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,20 +82,32 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\taskTwo\src\components\UI_Kits\images" />
-      <recent name="D:\projects\taskTwo\src\components\UI_Kits\FooterWithSubscribe" />
-      <recent name="D:\projects\taskTwo\src\components\UI_Kits\Header\images" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\RoomDetails" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\taskTwo\src\components\image" />
       <recent name="D:\projects\taskTwo\src\components\UI_Kits\Cards\Room\image" />
       <recent name="D:\projects\taskTwo\src\components\UI_Kits\Cards\Calendar" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\Dropdowns" />
       <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\RangeCalendar" />
-      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\Dropdowns\DateRangeDropdown" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya\WebstormProjects\taskTwo\src\components\Content\Sections\FindroomBlock" />
+      <recent name="D:\projects\taskTwo\src\components\UI_Kits\images" />
+      <recent name="D:\projects\taskTwo\src\components\UI_Kits\FooterWithSubscribe" />
+      <recent name="D:\projects\taskTwo\src\components\UI_Kits\Header\images" />
+      <recent name="C:\Users\ilsol\WebstormProjects\taskTwo\src\components\UI_Kits\FormElements\RoomDetails" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -87,18 +123,6 @@
       <envs />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -152,6 +176,8 @@
       <workItem from="1580204974594" duration="3908000" />
       <workItem from="1580211823268" duration="6842000" />
       <workItem from="1580237343089" duration="1975000" />
+      <workItem from="1580758843382" duration="5528000" />
+      <workItem from="1580818280078" duration="12528000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил 4 простые кнопки">
       <created>1578572517277</created>

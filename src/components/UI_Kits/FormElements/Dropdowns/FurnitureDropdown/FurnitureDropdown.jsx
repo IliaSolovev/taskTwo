@@ -2,11 +2,11 @@ import React, {useState, useEffect} from "react";
 import injectSheet from 'react-jss';
 import DropdownFiled from "../DropdownFiled/DropdownFiled";
 import DropdownCounter from "../DropdownCounter/DropdownCounter";
-import {DarkShade25, DarkShade5, DarkShade50, Purple} from "../../../ColorsAndTypes/Colors";
 import {CSSTransition} from "react-transition-group";
 import './FurnitureDropdown.css'
 import {declOFNum} from "../ParseWord";
-import {H3} from "../../ColorsAndTypes/Fonts";
+import {H3} from "../../../ColorsAndTypes/Fonts";
+import {DarkShade25, DarkShade5, DarkShade50, Purple} from "../../../ColorsAndTypes/Colors";
 
 const classes = {
   content: {

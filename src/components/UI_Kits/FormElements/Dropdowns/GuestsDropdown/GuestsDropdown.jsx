@@ -14,12 +14,13 @@ import TransparentButtonWithoutBorder
 const classes = {
     content: {
         position: 'absolute',
-        width: 320,
+        width: props => props.isFound?266:320,
         background: '#fff',
         border: `1px solid ${DarkShade25}`,
         boxSizing: `border-box`,
         boxShadow: `0px 10px 20px ${DarkShade5}`,
         overflow: 'hidden',
+        zIndex: 2,
     },
     buttons: {
         display: 'flex',
@@ -30,7 +31,7 @@ const classes = {
 };
 
 
-const GuestsDropdown = ({classes, ...rest}) => {
+const GuestsDropdown = ({classes,isFound, ...rest}) => {
     const titles = ['Взрослые', 'Дети', 'Младенцы'];
     const wordsArr = ['гость', 'гостя', 'гостей'];
     const [data, setData] = useState(0);
@@ -50,7 +51,7 @@ const GuestsDropdown = ({classes, ...rest}) => {
 
     return (
         <div>
-            <DropdownFiled text={data ? `${data} ${text}` : 'Сколько гостей'} setUsOpen={() => setUsOpen(!isOpen)}/>
+            <DropdownFiled text={data ? `${data} ${text}` : 'Сколько гостей'} setUsOpen={() => setUsOpen(!isOpen)} isFound={isFound}/>
             <CSSTransition in={isOpen} timeout={1000} classNames='guestsDropdown' unmountOnExit>
                 <div className={classes.content}>
                     <div>

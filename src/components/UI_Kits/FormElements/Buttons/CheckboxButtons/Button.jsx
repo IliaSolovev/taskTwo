@@ -35,12 +35,11 @@ const classes = {
     marginTop: 2,
   },
   text: {
-
-    ...H3,
+    ...Body,
     color: DarkShade50,
   },
   title: {
-    ...Body,
+    ...H3,
     fontWeight: 'bold',
     color: DarkShade75
   }

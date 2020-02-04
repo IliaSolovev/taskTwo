@@ -8,8 +8,7 @@ const classes = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    ':last-child':{
+    ':last-child': {
       marginTop: 0,
     }
   },
@@ -24,11 +23,11 @@ const classes = {
 };
 
 const FooterList = ({classes, items, title, ...rest}) => {
-  const listItems = items.map((item,id) => <div key={id} className={classes.item}>{item}</div>)
+  const listItems = items.map((item, id) => <div key={ id } className={ classes.item }>{ item }</div>)
   return (
-    <div className={classes.root}>
-      <div className={classes.title}>{title}</div>
-      {listItems}
+    <div className={ classes.root }>
+      <div className={ classes.title }>{ title }</div>
+      { listItems }
     </div>
   )
 };

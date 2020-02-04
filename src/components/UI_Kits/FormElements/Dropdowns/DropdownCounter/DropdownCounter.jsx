@@ -9,7 +9,7 @@ const classes = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    width: 300,
+    padding:'0 10px',
     height: 38,
     margin: '0 auto',
   },

@@ -9,7 +9,7 @@ const classes = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    width: 320,
+    width: props => props.isFound?266:320,
     height: 44,
     padding: '0 15px',
     background: '#fff',

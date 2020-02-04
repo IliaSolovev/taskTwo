@@ -7,7 +7,7 @@ const classes = {
   root: {}
 };
 
-const Costs = ({daysCount = 1, worthNumber = roomWorth, services = 2179, saleServices = 2179, additionalServices = 300, ...rest}) => {
+const Costs = ({daysCount = 0, worthNumber = roomWorth, services = 2179, saleServices = 2179, additionalServices = 300, ...rest}) => {
   return (
     <div className={classes.root}>
       <CostItem text={`${worthNumber}₽ х ${daysCount} суток`} cost={worthNumber * daysCount}/>
